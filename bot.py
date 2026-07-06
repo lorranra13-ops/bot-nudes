@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
-GROUP_ID = None  # Vamos pegar automaticamente
+GROUP_ID = -1004260845425  # Vamos pegar automaticamente
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
